@@ -46,21 +46,21 @@ public class KafeMenu {
                     continue;
                 }
 
-                System.out.print("Masukkan jumlah pesanan: ");
+                System.out.print("Masukkan jumlah pesanan: "); 
                 int jumlah = user.nextInt();
                 if (jumlah <= 0) {
                     System.out.println("Jumlah pesanan harus lebih dari 0.");
                     continue;
                 }
 
-                pesananNama.add(menuNama[nomorMenu - 1]);
+                pesananNama.add(menuNama[nomorMenu - 1]); 
                 pesananJumlah.add(jumlah);
                 pesananHarga.add(menuHarga[nomorMenu - 1]);
 
                 System.out.println(jumlah + " " + menuNama[nomorMenu - 1] + " berhasil ditambahkan ke pesanan.");
                 System.out.println("");
 
-            } else if (pilihan == 2) {
+            } else if (pilihan == 2) { 
                 System.out.println("\n=== Daftar Pesanan ===");
                 if (pesananNama.isEmpty()) {
                     System.out.println("Belum ada pesanan.");
@@ -84,13 +84,13 @@ public class KafeMenu {
 
             } else if (pilihan == 4) {
 
-                System.out.println("Terima kasih telah berkunjung ke kafe kami!");
-                isRunning = false;
+                System.out.println("Terima kasih telah berkunjung ke kafe kami!"); 
+                isRunning = false; 
             } else {
-                System.out.println("Pilihan tidak valid. Silakan coba lagi.");
+                System.out.println("Pilihan tidak valid. Silakan coba lagi."); 
             }
         }
 
-        user.close();
+        user.close();   
     }
 }
