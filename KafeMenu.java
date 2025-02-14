@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class KafeMenu {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class KafeMenu {
         }; 
         int[] menuHarga = {20000, 15000, 12000, 10000, 8000, 20000, 25000}; 
 
-        ArrayList<String> pesananNama = new ArrayList<>(); 
+        ArrayList<String> pesananNama = new ArrayList<>();  
         ArrayList<Integer> pesananJumlah = new ArrayList<>();
         ArrayList<Integer> pesananHarga = new ArrayList<>();
 
